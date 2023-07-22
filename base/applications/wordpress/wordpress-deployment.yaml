@@ -63,6 +63,8 @@ spec:
         ports:
         - containerPort: 80
           name: wordpress
+        - containerPort: 443
+          name: wordpress-tls
         volumeMounts:
         - name: wordpress-persistent-storage
           mountPath: /var/www/html
