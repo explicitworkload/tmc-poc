@@ -10,9 +10,9 @@ kind: Certificate
 metadata:
   name: wordpress-cert
 spec:
-  commonName: foo.bar.com
+  commonName: wordpress.duckbank.de
   dnsNames:
-  - foo.bar.com
+  - wordpress.duckbank.de
   issuerRef:
     name: ca-issuer-selfsigned
     kind: Issuer
